@@ -13,7 +13,7 @@ private int b ;
 		catch(Exception e){
 			System.out.println("Cant divide by zero");
 		}
-		
+	
 	}
 	public static void main(String ...args){
 		try{
