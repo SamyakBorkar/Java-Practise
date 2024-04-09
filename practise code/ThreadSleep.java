@@ -1,5 +1,5 @@
 class ThreadSleep{
-	public static void main(String args[])throws  Exception{
+	public static void main(String args[]){
 		System.out.println("Hey First line");
 		Thread.sleep(3000);
      		System.out.println("Hey Second line");
