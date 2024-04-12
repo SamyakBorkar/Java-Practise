@@ -9,7 +9,9 @@ class Laptop implements Company{
 		System.out.println("Coding in Laptop.....");
 	}
 	
-	public void Desktop(){}
+	public void Desktop(){
+		System.out.println("In Laptop Class.....");
+			}
 	
 }
 
@@ -18,7 +20,8 @@ class Desktop implements Company{
 		System.out.println("Coding in Desktop.....");
 	}
 	public void laptop(){
-		
+	
+	      System.out.println("In Desktop Class.....");
 	}
 }
 
@@ -27,7 +30,9 @@ class DevS{
 		Company lapy = new Laptop();
 		Company Desk = new Desktop();
 		lapy.laptop();
+		lapy.Desktop();
 		Desk.Desktop();
+		Desk.laptop();
 		
 		
 		
