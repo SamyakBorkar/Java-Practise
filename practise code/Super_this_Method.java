@@ -11,10 +11,12 @@ class X{
 
 class Y extends X{
 	public Y(){
+		super(54);
 		System.out.println("In B's Default Constructor");
 	}
 	
 	public Y(int N){
+		
 		System.out.println("In B's Parametrized Constructor");
 	}
 }
