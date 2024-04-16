@@ -4,6 +4,7 @@ class X{
 	}
 	
 	public  X(int N){
+		this();
 		System.out.println("In A's Parameterized Constructor");
 	}
 	
@@ -16,13 +17,13 @@ class Y extends X{
 	}
 	
 	public Y(int N){
-		
+		this();
 		System.out.println("In B's Parametrized Constructor");
 	}
 }
 
 class Z{
 	public static void main(String args[]){
-		Y obj = new Y();
+		Y obj = new Y(5);
 	}
 }
