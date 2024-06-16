@@ -9,7 +9,7 @@ class StudentNames {
         scanner.nextLine();
         
         String[] studentNames = new String[n];
-        
+	System.out.println("___________________________________________");        
         System.out.println("Enter the names of the students:");
         for (int i = 0; i < n; i++) {
             System.out.print("Student " + (i + 1) + ": ");
@@ -20,6 +20,7 @@ class StudentNames {
         for (int i = 0; i < n; i++) {
             System.out.println(studentNames[i]);
         }
+        System.out.println("___________________________________________");
     }
 }
 
